@@ -11,7 +11,7 @@
 2.连接数据库，database.go、main.go中进行连接。  
 3. 进入终端，执行go run main.go routes.go。  
   
-接口：
+接口：  
 需将前端代码src_project29中screens/Login、Register、Set以及api中的接口部分做出改变。  
 1.改为10.0.2.2，可在模拟器中运行。  
 2.改为本地ipv4地址，真机、模拟器均可运行。（真机运行手机电脑连接同一个网络）  
