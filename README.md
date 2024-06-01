@@ -63,5 +63,6 @@
    - model：  
      -  user：用户信息数据库设置  
    - main：主函数，连接数据库，设置各种数据接口，启动路由  
-   - routes：登录、注册接口  
-
+   - routes：登录、注册接口
+  
+APP演示demo见：https://youtu.be/OAQPKJmeMfc
