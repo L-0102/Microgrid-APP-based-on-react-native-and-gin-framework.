@@ -1,0 +1,13 @@
+rootProject.name = 'AwesomeProject1'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+includeBuild('../node_modules/react-native-gradle-plugin')
+
+include ':react-native-linear-gradient'
+project(':react-native-linear-gradient').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-linear-gradient/android')
+
+//include ':react-native-cardview-wayne'
+//project(':react-native-cardview-wayne').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-cardview-wayne/android')
+
+//include ':react-native-fs'
+//project(':react-native-fs').projectDir = new File(settingsDir, '../node_modules/react-native-fs/android')
