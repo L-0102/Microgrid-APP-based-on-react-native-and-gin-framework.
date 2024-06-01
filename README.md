@@ -1,22 +1,22 @@
 # Design-and-implementation-of-mobile-APP-of-microgrid-integrated-energy-control-system
 基于微电网综合能源管控系统的移动端监控App的实现。该代码使用React Native与Gin框架分别作为前后端实现了一个APP的实现。
 
-运行：
-前端代码
-1.搭建react native相关环境，参考官方文档、B站。
-2.进入AwesomeProject1目录下， yarn android
-
-后端代码
-1搭建GOLAND /gin框架、mysql、navicat、apipost相关环境，参考官方文档以及B站。
-2.连接数据库，database.go、main.go中进行连接。
-3. 进入终端，执行go run main.go routes.go。
-
+运行：  
+前端代码  
+1.搭建react native相关环境，参考官方文档、B站。  
+2.进入AwesomeProject1目录下， yarn android  
+  
+后端代码  
+1搭建GOLAND /gin框架、mysql、navicat、apipost相关环境，参考官方文档以及B站。  
+2.连接数据库，database.go、main.go中进行连接。  
+3. 进入终端，执行go run main.go routes.go。  
+  
 接口：
-需将前端代码src_project29中screens/Login、Register、Set以及api中的接口部分做出改变。
-1.改为10.0.2.2，可在模拟器中运行。
-2.改为本地ipv4地址，真机、模拟器均可运行。（真机运行手机电脑连接同一个网络）
-
-
+需将前端代码src_project29中screens/Login、Register、Set以及api中的接口部分做出改变。  
+1.改为10.0.2.2，可在模拟器中运行。  
+2.改为本地ipv4地址，真机、模拟器均可运行。（真机运行手机电脑连接同一个网络）  
+  
+  
 代码框架
 前端（主要在src_29_project）：
 image：图片
