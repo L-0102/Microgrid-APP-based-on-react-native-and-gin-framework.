@@ -17,49 +17,49 @@
 2.改为本地ipv4地址，真机、模拟器均可运行。（真机运行手机电脑连接同一个网络）  
   
   
-代码框架
-前端（主要在src_29_project）：
-image：图片
-redux：状态管理，用于实现登录
-routes（界面路由）：
-        Homestack：首页
-        Index：底部导航
-        NewsStack：告警
-        UserStack：我的
-Screens（各界面屏幕）：
-  Home：
-        Dispatch：调度与分析
-        EleUse：微电源管理
-        GreenUse：绿色用电
-        Index：首页
-        LoadManage：负荷管理
-        MainHome：主界面
-        StorageManage：储能系统管理
-  News：告警
-  NoAuth：
-        Login：登录
-        Register：注册
-  User（我的）：
-        About：关于
-        Set：账户
-        Index：我的界面
-aesDecrpt：aes加密
-api：各接口
-index：登录、注册初始页设置
-storage：本地存储
-
-后端：
-Common：
-    database：连接数据库
-    jwt：JSON WEB TOKEN
-controller：
-    userController：登录、注册相关实现
-core：
-    aes：后端加密
-middleware：
-    authMiddleware：中间件，配合token登录验证
-model：
-    user：用户信息数据库设置
-main：主函数，连接数据库，设置各种数据接口，启动路由
-routes：登录、注册接口
+代码框架  
+前端（主要在src_29_project）：  
+image：图片  
+redux：状态管理，用于实现登录  
+routes（界面路由）：  
+        Homestack：首页  
+        Index：底部导航  
+        NewsStack：告警  
+        UserStack：我的  
+Screens（各界面屏幕）：  
+  Home：  
+        Dispatch：调度与分析  
+        EleUse：微电源管理  
+        GreenUse：绿色用电  
+        Index：首页  
+        LoadManage：负荷管理  
+        MainHome：主界面  
+        StorageManage：储能系统管理  
+  News：告警  
+  NoAuth：  
+        Login：登录  
+        Register：注册  
+  User（我的）：  
+        About：关于  
+        Set：账户  
+        Index：我的界面  
+aesDecrpt：aes加密  
+api：各接口  
+index：登录、注册初始页设置  
+storage：本地存储  
+  
+后端：  
+Common：  
+    database：连接数据库  
+    jwt：JSON WEB TOKEN  
+controller：  
+    userController：登录、注册相关实现  
+core：   
+    aes：后端加密  
+middleware：  
+    authMiddleware：中间件，配合token登录验证  
+model：  
+    user：用户信息数据库设置  
+main：主函数，连接数据库，设置各种数据接口，启动路由  
+routes：登录、注册接口  
 
